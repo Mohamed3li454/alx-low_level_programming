@@ -12,8 +12,5 @@ void pu()
 {
 	printf("_putchar");
 	return 0;
-}
-int main(void)
-{
 	    pu();
 }
