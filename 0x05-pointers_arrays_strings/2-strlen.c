@@ -6,14 +6,14 @@
  * Return: length
 */
 
-int _strlen(char *s)
+int _strlen(char *s);
 {
-	int con=0;
+	int con = 0;
 
-	while (*s != '\0');
+	while (*s != '\0')
 	{
-	con++;
-	s++;
+		con++;
+		s++;
 	}
 	return (con);
 }
